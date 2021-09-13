@@ -88,16 +88,18 @@ hr {
   font-size: 1.1rem;
   color: var(--contrast-color);
 }
-.navigation .link-active {
-  font-weight: 900;
-  font-size: 1.01rem;
-}
+
 .link:hover {
   font-weight: 900;
   font-size: 1.01rem;
 }
 .navigation .link {
   color: var(--secondary-color);
+}
+.navigation .link.link-active {
+  font-weight: 900;
+  color: var(--contrast-color);
+  font-size: 1.01rem;
 }
 .navigation .nav-pills {
   text-align: right;
@@ -161,4 +163,15 @@ hr {
 }
 .footer ul {
   padding-inline-start: 0px;
+}
+
+/******Blog-Page********/
+
+.blog-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-img img {
+  width: 90%;
 }
